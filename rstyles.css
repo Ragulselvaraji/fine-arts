@@ -1,0 +1,103 @@
+/* General styling for the form and container */
+/* ... (styles from previous login page) ... */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    height: 130vh;
+    background-image:url(img/background.jpg);
+    background-size:cover;
+    background-position: flex;
+  }
+.register-container {
+  backdrop-filter: blur(15px);
+  width: 300px;
+  background-size:cover;
+  background-clip: border-box;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px 60px;
+  }
+  
+  .register-form h2 {
+    margin-bottom: 30px;
+    color: #000000;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  input[type="password"],
+  select,
+  input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  input[type="text"]:focus,
+  input[type="tel"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus,
+  select:focus,
+  input[type="number"]:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .register-btn {
+    width: 160px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.register-btn:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.register-btn:focus {
+  outline: none;
+}
+
+.register-btn {
+  background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #4481eb,
+    #04befe,
+    #3f86ed
+  );
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+  
+  .register-btn:hover {
+    background-color: #0056b3;
+  }
+  
